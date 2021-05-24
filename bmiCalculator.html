@@ -6,10 +6,10 @@
   </head>
   <body>
     <h1>BMI Calculator</h1>
-    <form action="index.html" method="post">
-      <input type="number" name="weight" value="Weight">
-      <input type="number" name="height" value="Height">
-      <button type="submit" name="submit">Calculate BMI</button>
+    <form action="/bmi" method="post">
+      <input type="number" name="weight" step="0.01" placeholder="Weight in kg">
+      <input type="number" name="height" step="0.01" placeholder="Height in m">
+      <button type="submit">Calculate BMI</button>
     </form>
   </body>
 </html>
